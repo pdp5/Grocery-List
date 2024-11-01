@@ -1,0 +1,49 @@
+h1 {
+  color: rgb(8, 215, 215);
+  text-align: center;
+  font-weight: 550;
+}
+h2 {
+  display: inline-block;
+  margin: 3vh 0 1vh 0;
+  padding: 1vh 24.5vh 1vh 1vh;
+  background-color: antiquewhite;
+  border: black solid 2px;
+}
+.container {
+  display: flex;
+}
+h3 {
+  margin: 1vh 1vh;
+}
+.canned,
+.veggies {
+  margin: 1vh 1vh;
+  background-color: #d9d9d9;
+  padding-right: 5vh;
+}
+.dry-goods,
+.snacks {
+  margin: 1vh 2vh 1vh 1vh;
+  background-color: #d9d9d9;
+  padding-right: 5vh;
+}
+.dry-goods {
+  padding-right: 8vh;
+}
+.pantry-food-image,
+.freezer-image {
+  display: inline-block;
+  margin: auto 2vh;
+  mix-blend-mode: multiply;
+}
+.pantry-food-image img,
+.freezer-image img {
+  height: 15vh;
+}
+.freezer-items h2 {
+  padding-right: 22.5vh;
+}
+.freezer-image img {
+  width: 20vh;
+}
